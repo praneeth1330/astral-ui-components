@@ -5,7 +5,6 @@ import Navbar from './components/navBar';
 import AccordionShowcase from './components/accordian';
 // import AvatarGroupShowcase from './components/avatarGroup';
 import CommonComponents from './components/commonComponents';
-import Home from './components/home';
 // import { Breadcrumbs } from '@cloudwick/astral-ui';
 import EmptyStateShowcase from './components/emptyState';
 
