@@ -58,11 +58,11 @@ const FormComponent = () => {
         <div className="">
         </div>
         <div className="max-w-lg mx-auto p-6  rounded-lg shadow-md">
-            <h1 className="text-2xl font-bold text-center text-gray-800 mb-6">Registration Form</h1>
+            <h1 className="text-2xl font-bold text-center mb-6">Registration Form</h1>
 
             <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">Name</label>
+                    <label className="block text-sm font-medium  mb-2">Name</label>
                     <TextField
                         placeholder="Enter your name"
                         value={formData.name}
@@ -73,7 +73,7 @@ const FormComponent = () => {
 
 
                 <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">Email</label>
+                    <label className="block text-sm font-medium  mb-2">Email</label>
                     <TextField
                         type="email"
                         placeholder="Enter your email"
@@ -86,7 +86,7 @@ const FormComponent = () => {
 
 
                 <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">Password</label>
+                    <label className="block text-sm font-medium  mb-2">Password</label>
                     <TextField
                         type="password"
                         placeholder="Enter your password"
@@ -98,7 +98,7 @@ const FormComponent = () => {
 
 
                 <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">Gender (radio with sizes)</label>
+                    <label className="block text-sm font-medium  mb-2">Gender (radio with sizes)</label>
                     <div className="adp-space-y-8 space-x-4">
                         <Radio
                             name="gender"
@@ -128,7 +128,7 @@ const FormComponent = () => {
                 </div>
 
 
-                <label className=" text-sm font-medium text-gray-700 mb-2 flex gap-4">Hobbies</label>
+                <label className=" text-sm font-medium  mb-2 flex gap-4">Hobbies</label>
                 <div className='flex gap-3'>
                     <CheckboxGroup
                         size='sm'
@@ -168,7 +168,7 @@ const FormComponent = () => {
 
 
                 <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">Country</label>
+                    <label className="block text-sm font-medium  mb-2">Country</label>
                     <Select
                         placeholder="Select your country"
                         options={[
@@ -185,7 +185,7 @@ const FormComponent = () => {
 
 
                 <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">Date of Birth</label>
+                    <label className="block text-sm font-medium  mb-2">Date of Birth</label>
                     <DatePicker
                         onChange={(date) => handleChange('dateOfBirth', date)}
                         selected={formData.dateOfBirth}
@@ -215,7 +215,7 @@ const FormComponent = () => {
                 />
 
                 <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">About You</label>
+                    <label className="block text-sm font-medium  mb-2">About You</label>
                     <Textarea
                         placeholder="Tell us something about yourself"
                         value={formData.about}
