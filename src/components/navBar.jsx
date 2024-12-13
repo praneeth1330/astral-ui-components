@@ -23,7 +23,7 @@ export const Navbar = ({ onToggleChange }) => {
   return (
     <div className="relative bg-gray-800 text-white p-4">
       <div className="flex justify-between items-center">
-        <h1 className="text-xl font-bold">My Website</h1>
+        <h1 className="text-xl font-bold">V3-Playground</h1>
         <div className="flex items-center space-x-4">
           <Toggle 
             toggled={isDarkMode}
