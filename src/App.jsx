@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import FormComponent from './components/formComponent';
-import Layouts from './components/layouts';
 import Navbar from './components/navBar';
 import AccordionShowcase from './components/accordian';
 // import AvatarGroupShowcase from './components/avatarGroup';
