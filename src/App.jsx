@@ -37,7 +37,7 @@ const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   const handleToggleChange = (isDark) => {
-    setIsDarkMode(isDark);
+    setIsDarkMode(isDark); 
   };
 
   return (
